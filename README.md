@@ -24,6 +24,28 @@ It was created as **Assignment #1** for the course *Advanced Computer Programmin
 
 ---
 
+## 📸 Screenshots
+
+### Adding a Student
+![Adding a Student](screenshots/Added a student.png)
+
+### Adding another Student
+![Added another Student](screenshots/Adding another student.png)
+
+### Viewing All Students
+![View All Students](screenshots/view all students.png)
+
+### Updating Marks of a Student
+![Updating Marks of a Student](screenshots/Updating Marks of a Student.png)
+
+
+### Remove Student
+![Removing a Student](screenshots/remove student.png)
+
+### Remove Student
+![Searching a Student](screenshots/Searched a student.png)
+
+
 ## 🛠️ How to Run
 1. Clone this repository:
    ```bash
