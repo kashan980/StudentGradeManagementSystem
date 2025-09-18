@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
 public class Main {
-    // Arrays to store student data
+    
     static String[] names = new String[50];
     static int[] rollNumbers = new int[50];
-    static int[][] marks = new int[50][3]; // 3 subjects
+    static int[][] marks = new int[50][3]; // 
     static int studentCount = 0;
 
     public static void main(String[] args) {
@@ -46,7 +46,7 @@ public class Main {
 
     // ---------------- Methods ----------------
 
-    // 1. Add Student
+    
     static void addStudent(Scanner sc) {
         if (studentCount >= 50) {
             System.out.println("Cannot add more students. Limit reached!");
@@ -56,7 +56,7 @@ public class Main {
         System.out.print("Enter Roll No: ");
         int roll = sc.nextInt();
 
-        // Check duplicate roll number
+        
         for (int i = 0; i < studentCount; i++) {
             if (rollNumbers[i] == roll) {
                 System.out.println("Roll number already exists! Try again.");
@@ -88,7 +88,7 @@ public class Main {
         System.out.println("Student added successfully!");
     }
 
-    // 2. Update Marks
+    
     static void updateMarks(Scanner sc) {
         System.out.print("Enter Roll No to update: ");
         int roll = sc.nextInt();
@@ -112,7 +112,7 @@ public class Main {
         System.out.println("Marks updated successfully!");
     }
 
-    // 3. Remove Student
+    
     static void removeStudent(Scanner sc) {
         System.out.print("Enter Roll No to remove: ");
         int roll = sc.nextInt();
@@ -135,7 +135,7 @@ public class Main {
         System.out.println("Student removed successfully!");
     }
 
-    // 4. View All Students
+    
     static void viewAllStudents() {
         if (studentCount == 0) {
             System.out.println("No students available!");
@@ -152,7 +152,7 @@ public class Main {
         }
     }
 
-    // 5. Search Student
+    
     static void searchStudent(Scanner sc) {
         System.out.print("Enter Roll No to search: ");
         int roll = sc.nextInt();
@@ -171,7 +171,7 @@ public class Main {
                 total, avg);
     }
 
-    // 6. Highest Scorer
+    
     static void highestScorer() {
         if (studentCount == 0) {
             System.out.println("No students available!");
@@ -194,7 +194,7 @@ public class Main {
                 rollNumbers[maxIndex], names[maxIndex], maxTotal, avg);
     }
 
-    // 7. Class Average
+    
     static void classAverage() {
         if (studentCount == 0) {
             System.out.println("No students available!");
@@ -212,7 +212,7 @@ public class Main {
         System.out.printf("Class Average: %.2f%n", classAvg);
     }
 
-    // Helper: Find Student by Roll No
+    
     static int findStudentIndex(int roll) {
         for (int i = 0; i < studentCount; i++) {
             if (rollNumbers[i] == roll) return i;
