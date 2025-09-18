@@ -27,23 +27,22 @@ It was created as **Assignment #1** for the course *Advanced Computer Programmin
 ## 📸 Screenshots
 
 ### Adding a Student
-![Adding a Student](screenshots/Added a student.png)
+![Adding a Student](screenshots/Added_a_student.png)
 
 ### Adding another Student
-![Added another Student](screenshots/Adding another student.png)
+![Added another Student](screenshots/Adding_another_student.png)
 
 ### Viewing All Students
-![View All Students](screenshots/view all students.png)
+![View All Students](screenshots/View_all_students.png)
 
 ### Updating Marks of a Student
-![Updating Marks of a Student](screenshots/Updating Marks of a Student.png)
+![Updating Marks](screenshots/Updating_marks.png)
 
+### Removing a Student
+![Removing a Student](screenshots/Remove_student.png)
 
-### Remove Student
-![Removing a Student](screenshots/remove student.png)
-
-### Remove Student
-![Searching a Student](screenshots/Searched a student.png)
+### Searching a Student
+![Searching a Student](screenshots/Search_student.png)
 
 
 ## 🛠️ How to Run
